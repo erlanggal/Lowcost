@@ -1,0 +1,19 @@
+.header-main h1{
+    text-align: center;
+}
+
+.total-amount-main{
+    border: 1px solid #d9d9d9;
+}
+
+.dropdown-menu-content{
+    margin-left: 100px;
+}
+
+.distance-between-section{
+    margin-top: 4%;
+}
+
+.color-grey{
+    color: #cccccc;
+}

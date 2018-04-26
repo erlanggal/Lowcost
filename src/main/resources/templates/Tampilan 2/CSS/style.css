@@ -1,0 +1,165 @@
+#image-logo{
+    height: auto;
+    width: 180px;
+}
+
+.nav-horizontal li{
+    display: inline-block;
+}
+
+.main-1{
+    /* background-image: url(../Images/backgroundMinimalis.jpg); */
+    background-color:#232323;
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-1 h1{
+    color: white;
+}
+
+.main-1 h2{
+    color: #8dd8f8;
+}
+
+.jumbotron-configuration{
+    background-color: transparent;
+}
+
+.content-image1{
+    background-image: url(../Images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-image1 h1{
+    text-align: center;
+    color: white;
+    line-height: 388px;
+}
+
+.content-image2{
+    background-image: url(../Images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-image2 h1{
+    text-align: center;
+    color: white;
+    line-height: 380px;
+}
+
+.content-image3{
+    background-image: url(../Images/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-image3 h1{
+    text-align: center;
+    color: white;
+    line-height: 280px;
+}
+
+.content-image4{
+    background-image: url(../Images/image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-image4 h1{
+    text-align: center;
+    color: white;
+    line-height: 280px;
+}
+
+.content-image5{
+    background-image: url(../Images/image5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-image5 h1{
+    text-align: center;
+    color: white;
+    line-height: 280px;
+}
+
+.main-2-configuration{
+    margin-bottom: 120px;
+    padding: 100px;
+}
+
+a, a:active, a:visited, a:link, a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 123px;
+    text-align: center;
+}
+
+.menu-bar nav ul li{
+    padding:0 10px;
+}
+
+.search-bar{
+    margin-top: 50px;
+}
+
+.footer-main-1{
+    position: absolute;
+    bottom: 2%;
+    left: 7%;
+}
+
+.footer-main-2{
+    position: absolute;
+    bottom: 2%;
+    right: 7%;
+}
+
+.footer-main-2-menu1 p, .footer-main-2-menu1 svg{
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer-main-1-menu1 a:first-child{
+    border-right: 2px solid #fff;
+    
+}
+
+.footer-main-1-menu1 a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.h2-bold{
+    font-weight: bolder;
+}
+
+.h1-border{
+    font-weight: bolder;
+}
+
+.main2-data{
+    margin-bottom: 8%;
+}
+
+.footer-setting{
+    background-color: black;
+    color: white;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>thead>tr>th,
+.table>thead>tr>td {
+  border-top: none;
+  border-bottom: none;
+}
