@@ -1,0 +1,335 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    text-rendering: optimizeSpeed;
+    overflow-x: hidden;
+    color: #0b0b0b;
+}
+
+a, a:active, a:hover, a:link, a:visited {
+    color: #0b0b0b;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.title-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.title:before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #B133E7;
+    left: 50%;
+    margin-left: -30px;
+    bottom: -20px;
+}
+
+.small-font {
+    font-size: 13px;
+    margin: .5em;
+}
+
+.container-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bg-primary {
+    background-color: #B133E7 !important;
+}
+
+.bg-secondary {
+    background-color: #ce29aa !important;
+}
+
+.carousel-indicators li {
+    background-color: #B133E7;
+    height: 5px;
+}
+
+.carousel-caption.custom-caption {
+    z-index: 1;
+    right: 10%;
+    bottom: 30%;
+    left: unset;
+    color: #0b0b0b;
+}
+
+.btn.btn-transparent {
+    background-color: transparent;
+    cursor: pointer;
+    padding: .15rem 1rem;
+}
+
+.btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn.btn-fb {
+    background-color: #3B5998;
+    width: 273px;
+}
+
+.btn.btn-fb:hover, .btn.btn-fb:active {
+    background-color: #2f487c;
+}
+
+.btn.btn-gp {
+    background-color: #d14836;
+    width: 273px;
+}
+
+.btn.btn-gp:hover, .btn.btn-gp:active {
+    background-color: #af3c2d;
+}
+
+.btn.no-round {
+    border-radius: 0;
+}
+
+.btn.btn-outline-purple {
+    background-color: #fff;
+    border: 1px solid #B133E7;
+    color: #B133E7;
+}
+
+.btn.btn-outline-purple:hover, .btn.btn-outline-purple:active {
+    background-color: #B133E7;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+.modal-open {
+    overflow: auto;
+}
+
+.modal-open[style] {
+    padding-right: 0px !important;
+}
+
+.modal-header.modal-noborder, .modal-footer.modal-noborder {
+    border: none;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    opacity: .65;
+}
+
+.carousel-control-prev:hover, .carousel-control-prev:active, .carousel-control-next:hover, .carousel-control-next:active {
+    opacity: 1;
+}
+
+.carousel-control-prev svg, .carousel-control-next svg {
+    color: #B133E7;
+}
+
+.header-wrapper {
+    padding: 0;
+    opacity: .85;
+    top: 34.34px;
+    transition: all .2111s ease-out;
+}
+
+.header-login {
+    padding: .25em 0;
+    top: 0;
+    background-color: #fff;
+    opacity: .65;
+    transition: top .2s ease-out;
+}
+
+.header-wrapper, .header-login {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 20;
+}
+
+.header-hide {
+    top: -34.34px;
+}
+
+.header-show {
+    top: 0;
+}
+
+.header-login ul li {
+    margin: 0 .5em;
+}
+
+.header-login ul li svg {
+    margin-top: .35em;
+}
+
+.main-logo img {
+    width: 85px;
+    height: 65px;
+}
+
+.header-desktop .header-nav ul li {
+    margin: 0 10px;
+}
+
+.header-desktop .header-nav ul a li {
+    font-weight: 600;
+}
+
+.img-fullscreen, .img-fullscreen-65 {
+    object-fit: cover;
+}
+
+.features {
+    background-color: #fff;
+}
+
+.features-content {
+    margin: 10em 0;
+}
+
+.features-content h2 {
+    margin-bottom: 3em;
+}
+
+.features-icon {
+    font-size: 40px;
+    color: #0b0b0b;
+    margin-right: .5em;
+}
+
+.about-content {
+    background-color: #232323;
+}
+
+.a-header {
+    margin: 5em 0;
+}
+
+.a-quote {
+    margin: 3em 0;
+}
+
+.bags-wrapper {
+    margin: 10em 0;
+}
+
+.bags-row {
+    border-top: 1px solid #B133E7;
+    border-bottom: 1px solid #B133E7;
+}
+
+.bags-img img {
+    width: 50%;
+    height: 225px;
+    display: block;
+    margin: 0 auto;
+}
+
+.bags-img-details {
+    margin: 1em 0;
+}
+
+.carousel-caption.bags-custom-caption {
+    bottom: 0;
+}
+
+.bags-logo-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.bags-logo {
+    position: absolute;
+    background: #c4c4c4;
+    line-height: 28px;
+    letter-spacing: .02em;
+    right: 5%;
+    top: -50px;
+    padding: 25px 10px;
+    z-index: 1;
+}
+
+.bags-logo img {
+    width: 75px;
+    height: 50px;
+}
+
+.bags-spacing {
+    margin-top: 5em;
+}
+
+.contact {
+    background-color: #232323;
+}
+
+.footer-wrapper {
+    padding: 5em 7em;
+}
+
+.footer-title {
+    margin: 5em 0;
+}
+
+.social-icon {
+    font-size: 20px;
+}
+
+.footer-map, .map {
+    width: 100%;
+    height: 400px;
+}
+
+.footer-wg {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-social a h4:hover, .footer-social a h4:active {
+    color: #B133E7 !important;
+}
+
+.product {
+    margin-top: 99.93px;
+}
+
+.product .p-wrapper {
+    padding: 5em 0;
+}
+
+.p-preview img {
+    width: 100px;
+    height: 100px;
+}
+
+.p-img img {
+    height: 300px;
+    width: 50%;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.explore {
+    margin: 10em 0;
+}

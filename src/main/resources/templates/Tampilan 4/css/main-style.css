@@ -1,0 +1,233 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    text-rendering: optimizeSpeed;
+    overflow-x: hidden;
+    color: #0b0b0b;
+}
+
+a, a:active, a:hover, a:link, a:visited {
+    color: #0b0b0b;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0;
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.container-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+.z-index-20 {
+    z-index: 20;
+}
+
+.shadow-inset-bottom {
+    box-shadow: 0 -7px 20px -11px #000 inset;
+}
+
+.shadow-inset-left {
+    box-shadow: 20px 0px 30px -33px #000 inset;
+}
+
+.small-font {
+    font-size: 12px;
+    margin: .5em;
+}
+
+.title-text-1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+.title-text-2 {
+    font-family: 'Jua', sans-serif;
+}
+
+.color-primary {
+    color: #2290f7 !important;
+}
+
+.color-secondary {
+    color: #e2e2e2 !important;
+}
+
+.bg-primary {
+    background-color: #2290f7 !important;
+}
+
+.bg-secondary {
+    background-color: #e2e2e2 !important;
+}
+
+.col-md-2.width-col-2 {
+    width: 100%;
+}
+
+.col-md-10.width-col-10 {
+    width: 100%;
+}
+
+.header-wrapper {
+    padding: 1.25em;
+    opacity: .85;
+    width: 100%;
+    left: 0;
+    z-index: 20;
+}
+
+.header-desktop .header-nav ul li {
+    margin: 0 10px;
+}
+
+.header-desktop .header-nav ul a li {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.header-user img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.h-wrapper {
+    position: relative;
+}
+
+.h-wrapper img{
+    background-attachment: fixed;
+}
+
+.h-wrapper .h-h2-absolute {
+    position: absolute;
+    right: 85px;
+}
+
+.h-wrapper .h2-first {
+    bottom: 25%;
+}
+
+.h-wrapper .h2-second {
+    bottom: 18%;
+}
+
+.h-wrapper .h2-third {
+    bottom: 11%;
+}
+
+.guide {
+    background-color: #fff;
+}
+
+.g-wrapper {
+    padding: 11em 0;
+}
+
+.g-wrapper .g-content {
+    height: 200px;
+    object-fit: cover;
+}
+
+.g-wrapper .g-content p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 2em;
+    padding: .5em;
+    background-color: #fff;
+}
+
+.g-wrapper .g-content-1 {
+    background-image: url(../images/guide-travel.jpg);
+}
+
+.g-wrapper .g-content-2 {
+    background-image: url(../images/guide-food.jpg);
+}
+
+.quotes {
+    background-color: #f2f2f2;
+}
+
+.q-wrapper {
+    padding: 7em 0;
+}
+
+.blog {
+    background-color: #fff;
+}
+
+.b-wrapper:first-child {
+    padding: 11em 0;
+}
+
+.b-wrapper {
+    padding: 3em 0;
+}
+
+.b-card {
+    padding: 3em;
+    border-top: 1px solid #f2f2f2;
+}
+
+.b-img-head img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.b-img-user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: .5em;
+}
+
+.b-img-user h4 {
+    display: inline;
+}
+
+.b-content {
+    padding: 1em 3em;
+}
+
+.b-text {
+    margin: 1em 0;
+}
+
+.footer-sidebar {
+    display: table;
+    position: fixed;
+    top: -65.33px;
+}
+
+.footer-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.footer-wrapper ul li svg{
+    margin: .75em auto;
+    display: block;
+}
+
+.footer-wg {
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+}
