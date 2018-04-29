@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html  xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <title>Templates</title>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" th:href="@{/CSS/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/CSS/style.css}"/>
 
-    <script src="Scripts/jquery-3.3.1.min.js"></script>
-    <script src="Scripts/tether.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/tether.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -29,7 +29,7 @@
                 <div class="d-flex">
                     <div class="col-md-6">
                         <div class="image">
-                            <img src="Images/image1.PNG" alt="image1">
+                            <img src="/Images/image1.PNG" alt="image1">
                             <div class="button">
                                 <div class="button-view">
                                     <a class="btn btn-primary" href="#" th:href="@{'/Tampilan 2/HelloWorld'}" role="button">View</a>
@@ -48,7 +48,7 @@
 
                     <div class="col-md-6">
                         <div class="image">
-                            <img src="Images/image2.PNG" alt="image2">
+                            <img src="/Images/image2.PNG" alt="image2">
                             <div class="button">
                                 <div class="button-view">
                                     <a class="btn btn-primary" href="#" th:href="@{'/Tampilan 3/Main'}" role="button">View</a>
@@ -71,7 +71,7 @@
                 <div class="d-flex">
                     <div class="col-md-6">
                         <div class="image">
-                            <img src="Images/image4.PNG" alt="image4">
+                            <img src="/Images/image4.PNG" alt="image4">
                             <div class="button">
                                 <div class="button-view">
                                     <a class="btn btn-primary" href="#" th:href="${'/Tampilan 4/index'}" role="button">View</a>
@@ -90,7 +90,7 @@
 
                     <div class="col-md-6">
                         <div class="image">
-                            <img src="Images/Image3.PNG" alt="image3">
+                            <img src="/Images/Image3.PNG" alt="image3">
                             <div class="button">
                                 <div class="button-view">
                                     <a class="btn btn-primary" href="#" th:href="@{'/Tampilan 1/index'}" role="button">View</a>

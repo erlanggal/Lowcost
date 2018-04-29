@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 
 <head>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" th:href="@{/CSS/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/CSS/styleTampilan2.css}"/>
 
-    <script src="Script/jquery-3.3.1.min.js"></script>
-    <script src="Script/tether.min.js"></script>
-    <script src="Script/bootstrap.min.js"></script>
-    <script src="Script/fontawesome-all.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/tether.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/fontawesome-all.js"></script>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
-                    <img src="Images/Logo.jpg" alt="Gambar Logo" id="image-logo">
+                    <img src="/Images/LogoLyonsden.jpg" alt="Gambar Logo" id="image-logo">
                 </div>
 
                 <div class="col-md-6">

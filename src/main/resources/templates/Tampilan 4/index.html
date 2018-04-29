@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="UTF-8">
@@ -15,15 +15,15 @@
 
     <title>Template 2</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Tajawal:300,400|Dosis:400,600|Jua" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main-style.css">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal:300,400|Dosis:400,600|Jua" rel="stylesheet"/>
+    <link rel="stylesheet" th:href="@{CSS/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/CSS/styleTampilan4.css}"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
 
-    <script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="script/fontawesome-all.js"></script>
-    <script type="text/javascript" src="script/tether.min.js"></script>
-    <script type="text/javascript" src="script/bootstrap.min.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/fontawesome-all.js"></script>
+    <script src="/Scripts/tether.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -57,7 +57,7 @@
                         <div class="header-user">
                             <div class="d-flex justify-content-end">
                                 <a href="">
-                                    <img src="images/user.png" alt="">
+                                    <img src="/Images/user.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
             <div class="col-md-10 width-col-10 p-0">
                 <section class="home" id="home">
                     <div class="h-wrapper text-white">
-                        <img class="fullwidth-img fullheight-65" src="images/img-home.jpg" alt="">
+                        <img class="fullwidth-img fullheight-65" src="/Images/img-home.jpg" alt="">
                         <h2 class="uppercase h2-first title-text-1 h-h2-absolute">people forget years</h2>
                         <h2 class="uppercase h2-second title-text-1 h-h2-absolute">and</h2>
                         <h2 class="uppercase h2-third title-text-1 h-h2-absolute">remember moments</h2>
@@ -112,13 +112,13 @@
                             <a href="">
                                 <div class="b-card">
                                     <div class="b-img-head">
-                                        <img class="fullwidth-img-96" src="images/travel-california.jpg" alt="">
+                                        <img class="fullwidth-img-96" src="/Images/travel-california.jpg" alt="">
                                     </div>
                                     <div class="b-content">
                                         <div class="b-img-user">
                                             <div class="row align-items-center">
                                                 <span>
-                                                    <img src="images/user.png" alt="">
+                                                    <img src="/Images/user.png" alt="">
                                                 </span>
                                                 <span>
                                                     <h4>Reza</h4>
@@ -149,13 +149,13 @@
                             <a href="">
                                 <div class="b-card">
                                     <div class="b-img-head">
-                                        <img class="fullwidth-img-96" src="images/travel-jamaica.jpg" alt="">
+                                        <img class="fullwidth-img-96" src="/Images/travel-jamaica.jpg" alt="">
                                     </div>
                                     <div class="b-content">
                                         <div class="b-img-user">
                                             <div class="row align-items-center">
                                                 <span>
-                                                    <img src="images/user.png" alt="">
+                                                    <img src="/Images/user.png" alt="">
                                                 </span>
                                                 <span>
                                                     <h4>Reza</h4>
@@ -186,13 +186,13 @@
                             <a href="">
                                 <div class="b-card">
                                     <div class="b-img-head">
-                                        <img class="fullwidth-img-96" src="images/travel-maldives.jpg" alt="">
+                                        <img class="fullwidth-img-96" src="/Images/travel-maldives.jpg" alt="">
                                     </div>
                                     <div class="b-content">
                                         <div class="b-img-user">
                                             <div class="row align-items-center">
                                                 <span>
-                                                    <img src="images/user.png" alt="">
+                                                    <img src="/Images/user.png" alt="">
                                                 </span>
                                                 <span>
                                                     <h4>Reza</h4>
@@ -223,13 +223,13 @@
                             <a href="">
                                 <div class="b-card">
                                     <div class="b-img-head">
-                                        <img class="fullwidth-img-96" src="images/travel-new zealand.jpg" alt="">
+                                        <img class="fullwidth-img-96" src="/Images/travel-new zealand.jpg" alt="">
                                     </div>
                                     <div class="b-content">
                                         <div class="b-img-user">
                                             <div class="row align-items-center">
                                                 <span>
-                                                    <img src="images/user.png" alt="">
+                                                    <img src="/Images/user.png" alt="">
                                                 </span>
                                                 <span>
                                                     <h4>Reza</h4>
@@ -297,6 +297,6 @@
 
 </body>
 
-<script type="text/javascript" src="script/main-script.js"></script>
+<script src="/Scripts/scriptTampilan4.js"></script>
 
 </html>

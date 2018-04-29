@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <title>Main Page</title>
 
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" th:href="@{/CSS/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/CSS/styleTampilan3.css}"/>
 
-    <script src="Script/jquery-3.3.1.min.js"></script>
-    <script src="Script/tether.min.js"></script>
-    <script src="Script/bootstrap.min.js"></script>
-    <script src="Script/fontawesome-all.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/tether.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/fontawesome-all.js"></script>
 </head>
 
 <body>
@@ -45,7 +45,7 @@
                                 </ul>
                             </div>
 
-                            <img src="Images/logo.png" alt="Logo">
+                            <img src="/Images/logoDinnerOnly.png" alt="Logo">
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="configure">
-                                    <img src="Images/food1.jpg" alt="food1" class="image-full-height">
+                                    <img src="/Images/food1.jpg" alt="food1" class="image-full-height">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h1>Food 1</h1>
                                     </div>
@@ -98,7 +98,7 @@
 
                             <div class="carousel-item">
                                 <div class="configure">
-                                    <img src="Images/food2.jpg" alt="food2" class="image-full-height">
+                                    <img src="/Images/food2.jpg" alt="food2" class="image-full-height">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h1>Food 2</h1>
                                     </div>
@@ -107,7 +107,7 @@
 
                             <div class="carousel-item">
                                 <div class="configure">
-                                    <img src="Images/food3.jpg" alt="food3" class="image-full-height">
+                                    <img src="/Images/food3.jpg" alt="food3" class="image-full-height">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h1>Food 3</h1>
                                     </div>
@@ -142,7 +142,7 @@
             <div class="d-flex justify-content-start">
                 <div class="col-md-4">
                     <div class="content-3">
-                        <img src="Images/logo.png" alt="news">
+                        <img src="/Images/logoDinnerOnly.png" alt="news">
                         <div class="text">
                             <h5>News 1</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo commodo rhoncus. Ut
@@ -156,7 +156,7 @@
 
                 <div class="col-md-4">
                     <div class="content-3">
-                        <img src="Images/logo.png" alt="news">
+                        <img src="/Images/logoDinnerOnly.png" alt="news">
                         <div class="text">
                             <h5>News 2</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo commodo rhoncus. Ut
@@ -170,7 +170,7 @@
 
                 <div class="col-md-4">
                     <div class="content-3">
-                        <img src="Images/logo.png" alt="news">
+                        <img src="/Images/logoDinnerOnly.png" alt="news">
                         <div class="text">
                             <h5>News 3</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo commodo rhoncus. Ut
@@ -210,5 +210,5 @@
     </main>
 </body>
 
-<script src="Script/script.js"></script>
+<script src="Scripts/script.js"></script>
 </html>
